@@ -1,0 +1,28 @@
+# Зависимости
+node_modules/
+*/node_modules/
+
+# Сборка
+build/
+dist/
+
+# Переменные окружения и секреты
+.env
+.env.local
+*.local
+
+# Файлы конфигурации с паролями
+backend/config.js
+backend/config.local.js
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.vs/
